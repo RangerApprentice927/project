@@ -1,0 +1,41 @@
+
+body{
+   margin:0;
+}
+#title {
+  margin:0;
+  padding:100px;
+  background-image:url("http://www.pngmart.com/files/6/Chicago-PNG-Image.png"); height:173px;
+
+font-family:'Muli';
+  text-align:center;
+}
+ul{
+  text-decoration: none;
+  list-style-type:none;
+   padding:0p;
+  margin:0px;
+  background-color:DarkSlateGray	;
+  overflow:hidden;
+
+}
+li a{
+  text-decoration: none;
+  color:white;
+  display:block;
+  padding: 8px 90px;
+   text-align:center;
+  font-family: 'Muli';
+
+}
+a:hover{
+  background-color: white;
+  color:MidnightBlue;
+
+}
+li {
+    float: left;
+}
+li.active{
+  background-color:PowderBlue	;
+}
